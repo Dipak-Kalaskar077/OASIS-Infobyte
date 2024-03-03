@@ -1,0 +1,16 @@
+*{
+    font-family: kanit;
+}
+
+.Department-heading{
+    text-align: center;
+}
+
+.Department-IT{
+    border: 3PX solid black;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 50%;
+    margin: auto;
+}
+

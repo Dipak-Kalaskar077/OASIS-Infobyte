@@ -1,0 +1,337 @@
+*{
+    font-family: kanit,sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #262626;
+    color: white;
+    height: 130px;
+}
+
+
+
+.navbar-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover; /* Optional: Adjust the background size */
+    padding: 20px; /* Optional: Adjust padding */
+}
+
+.navbar-logo img {
+    display: flex;
+    height: 100px; /* Set the height of your logo */
+    width: auto; /* Auto-adjust width to maintain aspect ratio */
+}
+
+.navbar-item a {
+    color: white;
+    text-decoration: none;
+    margin: 0 35px;
+    justify-content: center;
+    font-family: sans-serif, poppiens;
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.Home{
+    text-align: center;
+    font-family: kanit,sans-serif;
+    font-size: larger;
+}
+
+.mainpanel{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+
+.Box1{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.Box2{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.Box3{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #111413;
+    border-radius: 20px;
+  }
+  
+  .button1:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #111413;
+    border-radius: 20px;
+  }
+  
+  .button2:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #111413;
+    border-radius: 20px;
+  }
+  
+  .button3:hover {
+    background-color: green ;
+    color: white;
+  }
+  
+
+.background_img{
+    position: relative;
+    height: 100vh;
+
+}
+
+.background_img img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+
+.Heading {
+    text-align: center;
+    font-family: kanit;
+}
+
+.About{
+    display: flex;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.About img{
+    height: 400px;
+    width: auto;
+    border-radius: 50px;
+}
+
+.vision-heading{
+    font-family: kanit;
+    text-align: center;
+}
+
+.Our-vision{
+    display: flex;
+    font-family: kanit;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 1400px;
+}
+
+.our-vision-main{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.Mission-head{
+    font-family: kanit;
+    border: 2px solid black;
+    width: 400px;
+}
+
+.Vision-head{
+    font-family: kanit;
+    border: 2px solid black;
+    width: 400px;
+}
+
+.Value-head{
+    font-family: kanit;
+    border: 2px solid black;
+    width: 400px;
+}
+
+.collges-head{
+    font-family: kanit;
+    text-align: center;
+}
+
+.main-box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    
+}
+
+.box4{
+    width: 500px;
+    margin: 10px, 15px;
+}
+
+.box5{
+    width: 500px;
+}
+.sitrc{
+    border: 2px solid black;
+}
+
+.sips{
+    border: 2px solid black;
+}
+
+.siem{
+    border: 2px solid black;
+
+}
+
+.soet{
+    border: 2px solid black;
+
+}
+
+.snjcoe{
+    border: 2px solid black;
+
+}
+
+.junior_collge{
+    border: 2px solid black;
+
+}
+
+.ssjpiti{
+    border: 2px solid black;
+
+}
+
+.srp{
+    border: 2px solid black;
+
+}
+
+.why-sandip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-sandip-heading{
+    text-align: center;
+}
+
+li{
+    font-weight:600;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 800PX;
+  text-align:start;
+
+}
+
+.contact_us_heading {
+    text-align: center;
+    margin-bottom: 100px; 
+}
+
+.container {
+    width: 50%; 
+    margin: auto; 
+}
+
+
+footer{
+    height: 100px;
+    background-color: #1c1b1b;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
